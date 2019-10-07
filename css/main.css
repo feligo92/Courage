@@ -1,0 +1,59 @@
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/feature.css");
+
+.Main__title{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)
+    ), url('https://files.slack.com/files-pri/T7E7HQJUF-FP5U46NDV/rana-sawalha-w_-6pwgbyau-unsplash.jpg');
+    background-size:cover;
+    margin: 0rem!important;
+    padding: 10rem!important;
+}
+.Nav__logo{
+    
+    animation:10s linear  rotate;
+    animation-iteration-count:infinite;
+
+}
+.Main__logo{
+    max-width: 60px;
+   
+
+}
+.logo{
+    width:30px
+}
+@keyframes rotate{
+    from{
+           
+    }
+    
+       
+    to{ transform: rotate(1440deg);
+           
+    }
+        
+}
+.carousel-item {
+    height: 88vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+    
+  }
+  .cartas{
+    height: 10%;
+    width: 140px;
+  }
+  a{
+      letter-spacing: 3px;
+  }
+  
