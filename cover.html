@@ -7,6 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="cover.css">
 
     <title>Adventum</title>
 
@@ -19,33 +20,45 @@
     <link href="cover.css" rel="stylesheet">
   </head>
 
-  <body class="text-center">
-
-    <div class="d-flex h-100 p-5 mx-auto flex-column">
-      <header class="p-5 mb-auto">
-        <div class="inner">
-            <img src="img/logo.svg" style="max-width: 60px; margin-left:-5px"></div>
-          <nav class="nav justify-content-center p-3 text-uppercase font-weight-light">
-            <a class="nav-link active text-white" href="#">Home</a>
-            <a class="nav-link text-light" href="#">Features</a>
-            <a class="nav-link text-light" href="#">Contact</a>
-          </nav>
+  <body class="text-center h-100">
+    <div class="video-background-holder">
+      <div class="video-background-overlay"></div>
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+      <div class="video-background-content container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+              <div class="d-flex h-100 p-5 mx-auto flex-column">
+                  <header class="p-4 mb-auto">
+                    <div class="inner"> 
+                        <img src="img/logo-white.svg" style="max-width: 60px; margin-left:-5px" class="Nav__logo"></div>
+                      <nav class="nav justify-content-center p-5 text-uppercase font-weight-light">
+                        <a class="nav-link active text-white" href="#">Home</a>
+                        <a class="nav-link text-light" href="#">Features</a>
+                        <a class="nav-link text-light" href="#">Contact</a>
+                      </nav>
+                    </div>
+                  </header>
+            
+                  <main role="main" class="inner cover p-5">
+                    <h1 class="text-uppercase font-weight-light">Adventum</h1>
+                    <p class="lead p-2">Vive la avetura de tu vida</p>
+                    <p class="lead p-5">
+                      <a href="#" class="btn btn-lg btn-outline-light text-uppercase font-weight-light rounded-0" style="letter-spacing:3px;">Quiero viajar</a>
+                    </p>
+                  </main>
+            
+                  <footer class="mt-auto text-uppercase font-weight-light p-5">
+                    <div class="p-5">
+                      <p>Adventum. 2019</p>
+                    </div>
+                  </footer>
+                </div>
+            </p>
+          </div>
         </div>
-      </header>
-
-      <main role="main" class="inner cover p-5">
-        <h1 class="text-uppercase font-weight-light">Adventum</h1>
-        <p class="lead p-2">Vive la avetura de tu vida</p>
-        <p class="lead p-5">
-          <a href="#" class="btn btn-lg btn-outline-light text-uppercase font-weight-light rounded-0" style="letter-spacing:3px;">Quiero viajar</a>
-        </p>
-      </main>
-
-      <footer class="mt-auto text-uppercase font-weight-light p-5">
-        <div class="p-5">
-          <p>Adventum. 2019</p>
-        </div>
-      </footer>
+      </div>
     </div>
 
 
