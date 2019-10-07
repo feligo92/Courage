@@ -46,6 +46,13 @@ body{
     height: 100%;
 }
 
+h1{
+    letter-spacing:3px;
+}
+
+a{
+    letter-spacing:3px;
+}
 .Nav__logo{
     animation:10s linear  rotate;
     animation-iteration-count:infinite;
