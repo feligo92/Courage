@@ -16,6 +16,7 @@
     
     animation:10s linear  rotate;
     animation-iteration-count:infinite;
+    text-align: center;
 
 }
 .Main__logo{
